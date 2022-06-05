@@ -84,7 +84,7 @@ WRAP3 CLASSES
 .wrap3{ width:960px; margin:0 auto;}
 .wrap3 .panel{ width:300px; float:left;}
 .wrap3 .panel .title{ padding-bottom:30px;}
-.wrap3 .panel .title h1{ color:#ffffff;}
+.wrap3 .panel .title h1{ color:#4e6e5d;}
 .wrap3 .panel .content img{ margin-bottom:20px;}
 .wrap3 .panel .content p a{ color:#4E6E5D; text-decoration:underline; font-style:italic; padding-top:30px; display:block;}
 .wrap3 .panel .content p a:hover{ color:#fff; text-decoration:none;}
@@ -103,7 +103,7 @@ COLS CLASSES
 .leftcol .panel .title{ background:url(../images/line-bg.jpg) repeat-x bottom; padding-bottom:25px; margin-bottom:25px;}
 .leftcol .panel .title h1{ text-transform:uppercase;}
 .leftcol .panel .content h2{ color:#1e3246; padding-bottom:15px; padding-top:10px;}
-.leftcol .panel .title span{ font-size:18px; color:#1e3246;}
+.leftcol .panel .title span{ font-size:18px; color:#4e6e5d;}
 .leftcol .panel .content p{ padding-bottom:20px;}
 .leftcol .panel .content img{ float:left; margin-right:20px; background:#dd2900; padding:3px; border:#f32d00 solid 2px;}
 
@@ -130,10 +130,10 @@ CONTACT FORM CLASSS
 
 .contact-form {padding:30px; width:100%; float:left;}
 .contact-form label {display: block; padding:10px 0 10px 0;}
-.contact-form label span {display: block; color:#ffed71;font-size:16px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
-.contact-form .input_text {padding:10px 10px; width:440px; background:#1e3246;border: none; color:#fff; background:url(../images/bg2.jpg) repeat-x; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
-.contact-form .message{padding:10px 10px; width:440px; color:#fff;border: none;overflow:hidden;height:150px;background:url(../images/bg2.jpg); outline:none; font-family:"Trebuchet MS"; font-size:14px;}
-.contact-form .button{padding:8px;background:#ff9c00; color:#1e3246; text-transform:uppercase; font-family:"Trebuchet MS"; border:0px solid;margin-left:100px;margin-top:20px;}
+.contact-form label span {display: block; color:#4e6e5d;font-size:16px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
+.contact-form .input_text {padding:10px 10px; width:440px; background:#ffffff;border: none; color:#4e6e5d; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
+.contact-form .message{padding:10px 10px; width:440px; color:#4e6e5d;border: none;overflow:hidden;height:150px; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
+.contact-form .button{padding:8px;background:#4e6e5d; color:#ffffff; text-transform:uppercase; font-family:"Trebuchet MS"; border:0px solid;margin-left:100px;margin-top:20px;}
 
 .address { float:left; width:370px; margin-left:30px;}
 .address .panel { border:none; color:#9b9e9a}
