@@ -31,19 +31,19 @@ GENERAL CLASSES
 /*-------------------------------------------------
 HEADER CLASSES
 -------------------------------------------------*/
-.header-wrap{ background:#000 url(../images/bg2.jpg) repeat-x; height:150px; width:100%; }
+.header-wrap{ background:#000 url(../images/bg2.jpg) repeat-x; height:100px; width:100%; }
 .logo{ width:360px; margin:0 auto;}
-.logo h1{ color:#ffffff; font-size:45px; font-weight: normal; padding-top:70px; padding-bottom:40px;}
+.logo h1{ color:#ffffff; font-size:45px; font-weight: normal; padding-top:30px; padding-bottom:40px;}
 
 /*-------------------------------------------------
 MENU CLASSES
 -------------------------------------------------*/
-.menu-wrap{ overflow:hidden; margin:25px auto 30px auto; width:960px;}
-.menu{ float:left; width:660px;}
-.menu ul li{ list-style:none; float:left; width:88px; text-align:center; line-height:40px; margin-right:10px;}
+.menu-wrap{ overflow:hidden; margin:20px auto 20px auto; width:960px;}
+.menu{float:center; width:960px;}
+.menu ul li{ list-style:none; float:left; width:120px; text-align:center; line-height:40px; margin-right:10px;}
 .menu ul li a{ text-decoration:none; font-size:15px; font-weight:bold; text-transform:uppercase; text-align:center; display:block; color:#4E6E5D;}
-.menu ul li a:hover{ color:#ffffff;  background:url(../images/menu-btn.png) no-repeat;}
-.menu ul li a.active{ background:url(../images/menu-btn.png) no-repeat; color:#4E6E5D; width:88px; height:40px; color:#ffffff;}
+.menu ul li a:hover{ color:#ffffff;  background:url(../images/menu-btn.png) no-repeat; background-size:120px 40px;}
+.menu ul li a.active{ background:url(../images/menu-btn.png) no-repeat; color:#ffffff; background-size:120px 40px;}
 
 /*-------------------------------------------------
 SOCIAL MEDIA CLASSES
