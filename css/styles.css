@@ -2,13 +2,14 @@
 GLOBALS CLASSES 
 -------------------------------------------------*/
 *{padding:0; margin:0;}
-body{font-family:"Trebuchet MS"; font-size:14px; color:#4e6e5d; background:url(../images/bg1.jpg); background-size:contain;}
+body{font-family:"Trebuchet MS"; font-size:16px; color:#001f29; background:; background-size:contain;}
 img{border:none;}
 h1{ font-family:"Trebuchet MS"; font-size:22px; font-weight:normal;}
-h2{ font-family:"Trebuchet MS"; font-size:18px; font-weight:normal;}
-P{ line-height:20px;}
-a{text-decoration:none; color:#4E6E5D;}
+h2{ font-family:"Trebuchet MS"; font-size:20px; font-weight:normal;}
+P{line-height:20px;}
+a{text-decoration:none; color:#001f29;}
 a:hover{color:#001f29;}
+i{font-family:"Trebuchet MS"; font-size:4px; color:#ffffff;; background-size:contain;}
 /*-------------------------------------------------
 GENERAL CLASSES
 -------------------------------------------------*/
@@ -31,14 +32,14 @@ GENERAL CLASSES
 /*-------------------------------------------------
 HEADER CLASSES
 -------------------------------------------------*/
-.header-wrap{ background:#000 url(../images/bg2.jpg) repeat-x; height:100px; width:100%; }
+.header-wrap{ background:#000 url(../images/bg1.jpg); height:100px; width:100%; }
 .logo{ width:360px; margin:0 auto;}
-.logo h1{ color:#ffffff; font-size:45px; font-weight: normal; padding-top:30px; padding-bottom:40px;}
+.logo h1{ color:#001f29; font-size:45px; font-weight: normal; padding-top:30px; padding-bottom:40px;}
 
 /*-------------------------------------------------
 MENU CLASSES
 -------------------------------------------------*/
-.menu-wrap{ overflow:hidden; margin:20px auto 20px auto; width:960px;}
+.menu-wrap{ overflow:hidden; margin:20px auto auto auto; width:960px;}
 .menu{float:center; width:960px;}
 .menu ul li{ list-style:none; float:left; width:120px; text-align:center; line-height:40px; margin-right:10px;}
 .menu ul li a{ text-decoration:none; font-size:15px; font-weight:bold; text-transform:uppercase; text-align:center; display:block; color:#4E6E5D;}
@@ -70,13 +71,15 @@ BOX CLASSES
 /*-------------------------------------------------
 WRAP2 CLASSES
 -------------------------------------------------*/
-.wrap2{ width:880px; height:75px; margin:0 auto; overflow:hidden; background:url(../images/box-bg.png) no-repeat; margin-top:60px; margin-bottom:60px; padding:40px 40px;}
+.wrap2{ width:960px; height:200px; margin:0 auto; margin-top:20px; margin-bottom:180px; padding:px 40px;}
 .wrap2 .content{ width:500px; float:left;}
 .icon{ float:left; width:35px; height:60px; margin-right:25px;}
-.wrap2 h1{ color:#001325;}
+.wrap2 h1{padding-bottom: 10px; color:#001325;}
+.wrap2 h2{padding-bottom: 20px; color:#001325;}
 .wrap2 .button{ float:right; display:block;}
 .wrap2 .button a{background:url(../images/box-bg2.png) no-repeat;  width:220px; height:60px; font-size:26px; line-height:60px; text-transform:uppercase; padding-left:40px;}
 .wrap2 .button a:hover{ width:220px; height:60px; padding-left:40px; background:url(../images/box-bg2hover.png) no-repeat; color:#ec3600;}
+.wrap2 .panel .content ul li{font-family:"Trebuchet MS"; list-style:inside; margin-left: 20px; line-height:25px;}
 
 /*-------------------------------------------------
 WRAP3 CLASSES
@@ -86,19 +89,19 @@ WRAP3 CLASSES
 .wrap3 .panel .title{ padding-bottom:30px;}
 .wrap3 .panel .title h1{ color:#4e6e5d;}
 .wrap3 .panel .content img{ margin-bottom:20px;}
-.wrap3 .panel .content p a{ color:#4E6E5D; text-decoration:underline; font-style:italic; padding-top:30px; display:block;}
+.wrap3 .panel .content p a{ color:#4E6E5D; text-decoration:underline; font-style:italic; padding-top:20px; display:block;}
 .wrap3 .panel .content p a:hover{ color:#fff; text-decoration:none;}
 .wrap3 .panel .content .icon{ float:left; padding-right:20px;}
 .wrap3 .panel .content spna{ text-decoration:underline; color:#ffffff;}
-.wrap3 .panel .content ul{padding-top:30px;}
-.wrap3 .panel .content ul li{ list-style:none; background:url(../images/line-bg.jpg) repeat-x bottom; line-height:38px;}
+.wrap3 .panel .content ul{padding-top:20px;}
+.wrap3 .panel .content ul li{ font-family:"Trebuchet MS";list-style:inside; margin-left: 20px; line-height:25px;}
 .wrap3 .panel .content ul li a{ text-decoration:none; color:#ffffff;}
 .wrap3 .panel .content ul li a:hover{color:#4E6E5D;}
 
 /*-------------------------------------------------
 COLS CLASSES
 -------------------------------------------------*/
-.leftcol{ float:left; width:630px; overflow:hidden; margin-top:30px;}
+.leftcol{ float:left; width:730px; overflow:hidden; margin-top:30px;}
 .leftcol .panel{ width:100%;}
 .leftcol .panel .title{ background:url(../images/line-bg.jpg) repeat-x bottom; padding-bottom:25px; margin-bottom:25px;}
 .leftcol .panel .title h1{ text-transform:uppercase;}
@@ -108,7 +111,7 @@ COLS CLASSES
 .leftcol .panel .content img{ float:left; margin-right:20px; background:#dd2900; padding:3px; border:#f32d00 solid 2px;}
 
 
-.rightcol{ float:right; width:300px; overflow:hidden; margin-top:30px;}
+.rightcol{ float:right; width:200px; overflow:hidden; margin-top:30px;}
 
 /*-------------------------------------------------
 PORTFOLIO CLASSES
@@ -131,8 +134,8 @@ CONTACT FORM CLASSS
 .contact-form {padding:30px; width:100%; float:left;}
 .contact-form label {display: block; padding:10px 0 10px 0;}
 .contact-form label span {display: block; color:#4e6e5d;font-size:16px; float:left; width:80px; text-align:left; padding:5px 20px 0 0;}
-.contact-form .input_text {padding:10px 10px; width:440px; background:#ffffff;border: none; color:#4e6e5d; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
-.contact-form .message{padding:10px 10px; width:440px; color:#4e6e5d;border: none;overflow:hidden;height:150px; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
+.contact-form .input_text {padding:10px 10px; width:440px; background:#9b9e9a;border: none; color:#ffffff; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
+.contact-form .message{padding:10px 10px; width:440px; background:#9b9e9a;color:#ffffff;border: none;overflow:hidden;height:150px; outline:none; font-family:"Trebuchet MS"; font-size:14px;}
 .contact-form .button{padding:8px;background:#4e6e5d; color:#ffffff; text-transform:uppercase; font-family:"Trebuchet MS"; border:0px solid;margin-left:100px;margin-top:20px;}
 
 
@@ -165,7 +168,7 @@ FOOTER CLASSES
 
 
 .copyright-wrap{ background:url(../images/bg3.jpg) repeat-x center; height:63px; padding-top:45px;}
-.copyright-wrap .content{text-align:center; color:#feaf32;}
-.copyright-wrap .content p a{ color:#feaf32; text-decoration:none;}
+.copyright-wrap .content{text-align:center; color:#ffffff;}
+.copyright-wrap .content p a{ color:#ffffff; text-decoration:none;}
 .copyright-wrap .content p a:hover{ color:#ffffff;}
 .copyright-wrap .content p a.active{ color:#ffffff;}
