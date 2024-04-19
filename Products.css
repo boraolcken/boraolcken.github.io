@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 677px;
+  min-height: 686px;
 }
 
 .u-section-1 .u-text-1 {
@@ -17,7 +17,7 @@
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 649px;
+  min-height: 658px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -29,7 +29,7 @@
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 649px;
+  min-height: 658px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -37,7 +37,7 @@
 }
 
 .u-section-1 .u-gallery-1 {
-  height: 618px;
+  height: 628px;
   width: 663px;
   margin: 13px auto 0;
 }
@@ -92,7 +92,7 @@
 
   .u-section-1 .u-layout-cell-1 {
     background-position: 50% 50%;
-    min-height: 381px;
+    min-height: 387px;
   }
 
   .u-section-1 .u-text-2 {
@@ -102,12 +102,12 @@
 
   .u-section-1 .u-layout-cell-2 {
     background-position: 50% 50%;
-    min-height: 826px;
+    min-height: 387px;
   }
 
   .u-section-1 .u-gallery-1 {
     margin-top: 0;
-    height: 363px;
+    height: 428px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -127,10 +127,6 @@
     min-height: 1369px;
   }
 
-  .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 9px;
-  }
-
   .u-section-1 .u-layout-cell-1 {
     min-height: 647px;
   }
@@ -141,11 +137,11 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 650px;
+    min-height: 613px;
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 645px;
+    height: 1712px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -165,10 +161,6 @@
     min-height: 1281px;
   }
 
-  .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 0;
-  }
-
   .u-section-1 .u-layout-cell-1 {
     min-height: 609px;
   }
@@ -178,14 +170,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 578px;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 535px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 460px;
   }
 }
 
@@ -217,11 +202,11 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 1286px;
+    min-height: 290px;
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 1235px;
+    height: 1288px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -740,7 +725,12 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1228px;
+    min-height: 1278px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
   }
 
   .u-section-3 .u-layout-cell-1 {
