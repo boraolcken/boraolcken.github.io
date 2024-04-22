@@ -102,12 +102,12 @@
 
   .u-section-1 .u-layout-cell-2 {
     background-position: 50% 50%;
-    min-height: 387px;
+    min-height: 854px;
   }
 
   .u-section-1 .u-gallery-1 {
     margin-top: 0;
-    height: 428px;
+    height: 497px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -137,11 +137,11 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 613px;
+    min-height: 733px;
   }
 
   .u-section-1 .u-gallery-1 {
-    height: 1712px;
+    height: 721px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -154,15 +154,20 @@
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 630px;
+    min-height: 547px;
   }
 
   .u-section-1 .u-sheet-1 {
-    min-height: 1281px;
+    min-height: 1363px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-top: -1px;
+    margin-bottom: 9px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 609px;
+    min-height: 608px;
   }
 
   .u-section-1 .u-text-2 {
@@ -170,7 +175,14 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 460px;
+    min-height: 601px;
+  }
+
+  .u-section-1 .u-gallery-1 {
+    height: 648px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -202,7 +214,7 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 290px;
+    min-height: 378px;
   }
 
   .u-section-1 .u-gallery-1 {
@@ -473,7 +485,12 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1770px;
+    min-height: 556px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -679,8 +696,8 @@
   }
 
   .u-section-3 .u-image-3 {
-    margin-top: -162px;
-    margin-right: 39px;
+    margin-top: -157px;
+    margin-right: 43px;
   }
 
   .u-section-3 .u-layout-cell-5 {
@@ -726,11 +743,6 @@
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
     min-height: 1278px;
-  }
-
-  .u-section-3 .u-layout-wrap-1 {
-    margin-top: 50px;
-    margin-bottom: 60px;
   }
 
   .u-section-3 .u-layout-cell-1 {

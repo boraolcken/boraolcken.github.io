@@ -3,6 +3,7 @@
 }
 
 .u-section-1 .u-text-1 {
+  font-weight: 700;
   margin: 18px 5px 0;
 }
 
@@ -112,11 +113,15 @@
     margin-right: auto;
     margin-left: 0;
   }
+
+  .u-section-1 .u-image-6 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 952px;
+    min-height: 966px;
   }
 
   .u-section-1 .u-text-1 {

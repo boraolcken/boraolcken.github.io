@@ -25,10 +25,6 @@
   height: 40px;
 }
 
-.u-section-1 .u-input-3 {
-  height: 40px;
-}
-
 .u-section-1 .u-form-group-4 {
   margin-left: 0;
 }
@@ -39,6 +35,12 @@
 
 .u-section-1 .u-form-group-5 {
   margin-left: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-input-3 {
+    height: 40px;
+  }
 }
 
 @media (max-width: 767px) {
